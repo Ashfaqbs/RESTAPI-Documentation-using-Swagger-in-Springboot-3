@@ -15,6 +15,7 @@ import jakarta.persistence.Table;
  */
 @Entity
 @Table(name = "Employee_Backend")
+
 public class Employee {
 
 	@Id
@@ -26,9 +27,6 @@ public class Employee {
 	private double salary;
 	
 	
-	/**
-	 * 
-	 */
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
